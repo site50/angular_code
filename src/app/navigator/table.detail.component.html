@@ -1,0 +1,34 @@
+<div class="title">
+  <div>Detail table </div>
+  <div>Two list page</div>
+</div>
+<button *ngFor="let b of tables$ | async" type="button" class="btn btn-primary">
+  <span [routerLink]="['/navigator/', b.id]" [queryParams]="{'':b?.tab}" routerLinkActive="app"
+    ariaCurrentWhenActive="page">
+    {{b?.tab}} № {{b?.id}}
+  </span>
+</button>
+<div></div>
+<div class="type-table-detail">
+  <div class="types">
+    <div class="type-all-button">
+      <span *ngFor="let y of tables1.type ; let i=index ">
+        <button (click)="onSelectedType(y)" type="button" class="btn btn-info btn-lg">{{y}}</button>
+      </span>
+    </div>
+  </div>
+  <div class="table-detail">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" class="tab-det">Name </th>
+          <th scope="col" class="tab-det">Account</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let a of tables1.rum">
+        <tr *ngIf="this.sType===a.types">
+          <td>{{a.name}}</td>
+          <td>{{a.account}}</td>
+        </tr>
+      </tbody>
+    </table>

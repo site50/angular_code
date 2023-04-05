@@ -1,0 +1,33 @@
+<h4>Here I showed how I use Angular and its components</h4>
+<button type="button" class="btn btn-outline-primary btn-lg">
+  <a class="button" routerLink="/navigator" routerLinkActive="app" ariaCurrentWhenActive="page">
+    table
+  </a>
+</button>
+<button type="button" class="btn btn-outline-secondary btn-lg ">
+  <a class="button" routerLink="/product" routerLinkActive="app" ariaCurrentWhenActive="page">
+    product
+  </a>
+</button>
+<button type="button" class="btn btn-outline-success btn-lg">
+  <a class="button" routerLink="/store" routerLinkActive="app" ariaCurrentWhenActive="page">
+    store
+  </a>
+</button>
+<button type="button" class="btn btn-outline-danger btn-lg">
+
+  <a class="button" routerLink="/list" routerLinkActive="app" ariaCurrentWhenActive="page">
+    list
+  </a>
+</button>
+<button type="button" class="btn btn-outline-warning btn-lg">
+  <a class="button" routerLink="/cart" routerLinkActive="app" ariaCurrentWhenActive="page">
+    cart
+  </a>
+</button>
+<button type="button" class="btn btn-outline-info btn-lg">
+  <a class="button" routerLink="/" routerLinkActive="app" [routerLinkActiveOptions]="{exact: true}">
+    home
+  </a>
+</button>
+<router-outlet></router-outlet>

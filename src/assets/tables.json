@@ -1,0 +1,289 @@
+[
+    {
+        "type": [
+            "income",
+            "outcome",
+            "loan",
+            "investment"
+        ],
+        "id": 1,
+        "tab": "table",
+        "rum": [
+            {
+                "id_r": 1,
+                "types": "income",
+                "name": "Mark Otto",
+                "account": 12
+            },
+            {
+                "id_r": 2,
+                "types": "income",
+                "name": "Jacob Throton",
+                "account": 21
+            },
+            {
+                "id_r": 3,
+                "types": "outcome",
+                "name": "Michael Jackson",
+                "account": 31
+            },
+            {
+                "id_r": 4,
+                "types": "income",
+                "name": "Peter Parcker",
+                "account": 32
+            },
+            {
+                "id_r": 5,
+                "types": "outcome",
+                "name": "James Bond",
+                "account": 42
+            },
+            {
+                "id_r": 18,
+                "types": "investment",
+                "name": "Jacob Throton",
+                "account": 83555500
+            },
+            {
+                "id_r": 70,
+                "types": "investment",
+                "name": "Peter Parcker",
+                "account": 8222000
+            },
+            {
+                "id_r": 15,
+                "types": "income",
+                "name": "James Bond",
+                "account": 87597
+            },
+            {
+                "id_r": 1345,
+                "types": "loan",
+                "name": "Peter Parcker",
+                "account": 834555
+            },
+            {
+                "id_r": 778,
+                "types": "loan",
+                "name": "James Bond",
+                "account": 785555
+            }
+        ]
+    },
+    {
+        "type": [
+            "income",
+            "outcome",
+            "loan",
+            "investment"
+        ],
+        "id": 2,
+        "tab": "table",
+        "rum": [
+            {
+                "id_r": 1,
+                "types": "income",
+                "name": "Michael Jackson",
+                "account": 43
+            },
+            {
+                "id_r": 2,
+                "name": "Mark Otto",
+                "account": 10
+            },
+            {
+                "id_r": 3,
+                "types": "income",
+                "name": "Jacob Throton",
+                "account": 12
+            },
+            {
+                "id_r": 4,
+                "types": "income",
+                "name": "Peter Parcker",
+                "account": 25
+            },
+            {
+                "id_r": 5,
+                "types": "outcome",
+                "name": "James Bond",
+                "account": 62
+            },
+            {
+                "id_r": 233,
+                "types": "outcome",
+                "name": "Jacob Throton",
+                "account": 1992
+            },
+            {
+                "id_r": 8,
+                "types": "investment",
+                "name": "Jacob Throton",
+                "account": 64660000
+            },
+            {
+                "id_r": 900,
+                "types": "investment",
+                "name": "Peter Parcker",
+                "account": 62300000
+            },
+            {
+                "id_r": 75,
+                "types": "income",
+                "name": "James Bond",
+                "account": 33362
+            },
+            {
+                "id_r": 753,
+                "types": "loan",
+                "name": "Peter Parcker",
+                "account": 35
+            },
+            {
+                "id_r": 543,
+                "types": "loan",
+                "name": "James Bond",
+                "account": 23
+            }
+        ]
+    },
+    {
+        "type": [
+            "income",
+            "outcome",
+            "loan",
+            "investment"
+        ],
+        "id": 3,
+        "tab": "table",
+        "rum": [
+            {
+                "id_r": 1,
+                "types": "income",
+                "name": "Michael Jackson",
+                "account": 43
+            },
+            {
+                "id_r": 2,
+                "types": "income",
+                "name": "Mark Otto",
+                "account": 55
+            },
+            {
+                "id_r": 3,
+                "types": "outcome",
+                "name": "Jacob Throton",
+                "account": 12
+            },
+            {
+                "id_r": 4,
+                "types": "income",
+                "name": "Peter Parcker",
+                "account": 25
+            },
+            {
+                "id_r": 5,
+                "types": "income",
+                "name": "James Bond",
+                "account": 62
+            },
+            {
+                "id_r": 245,
+                "types": "investment",
+                "name": "Jacob Throton",
+                "account": 945000
+            },
+            {
+                "id_r": 333,
+                "types": "investment",
+                "name": "Peter Parcker",
+                "account": 47800000
+            },
+            {
+                "id_r": 8765,
+                "types": "income",
+                "name": "James Bond",
+                "account": 3456
+            },
+            {
+                "id_r": 736,
+                "types": "loan",
+                "name": "Peter Parcker",
+                "account": 34567
+            },
+            {
+                "id_r": 689,
+                "types": "loan",
+                "name": "James Bond",
+                "account": 527
+            }
+        ]
+    },
+    {
+        "type": [
+            "income",
+            "outcome",
+            "loan",
+            "investment"
+        ],
+        "id": 4,
+        "tab": "table",
+        "rum": [
+            {
+                "id_r": 1,
+                "types": "income",
+                "name": "Michael Jackson",
+                "account": 553
+            },
+            {
+                "id_r": 2,
+                "types": "income",
+                "name": "Mark Otto",
+                "account": 0
+            },
+            {
+                "id_r": 3,
+                "types": "outcome",
+                "name": "Jacob Throton",
+                "account": 12
+            },
+            {
+                "id_r": 4,
+                "types": "outcome",
+                "name": "Peter Parcker",
+                "account": 25
+            },
+            {
+                "id_r": 8,
+                "types": "investment",
+                "name": "Jacob Throton",
+                "account": 10000000
+            },
+            {
+                "id_r": 900,
+                "types": "investment",
+                "name": "Peter Parcker",
+                "account": 2000000
+            },
+            {
+                "id_r": 5,
+                "types": "income",
+                "name": "James Bond",
+                "account": 62
+            },
+            {
+                "id_r": 18,
+                "types": "loan",
+                "name": "Peter Parcker",
+                "account": 2555
+            },
+            {
+                "id_r": 15,
+                "types": "loan",
+                "name": "James Bond",
+                "account": 162
+            }
+        ]
+    }
+]

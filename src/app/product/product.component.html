@@ -1,0 +1,74 @@
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col">
+            <h5>Reading data from JSON file using HttpClient. Examples.</h5>
+            <ul class="list-group" *ngFor="let p of products$ | async; let i=index">
+                <li class="list-group-item">
+                    {{p.id}}. {{p.name }}, quantity: {{p.quantity}}
+
+                    <button (click)="add_newArr(p.name, p.id, p.quantity)" type="button"
+                        class="btn btn-outline-success btn-small">
+                        add cart
+                    </button>
+                </li>
+            </ul>
+            <table class="table">
+                <thead>
+                    <tr *ngIf="nameP1.length !=0; ">
+                        <th scope="col">id</th>
+                        <th scope="col">name</th>
+                        <th scope="col">quantity</th>
+                        <th scope="col">button</th>
+                        <th scope="col">button</th>
+                        <th scope="col">button</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let x of newP; let i=index;">
+                        <th scope="row">{{i+1}}</th>
+                        <td>{{x.name}}</td>
+                        <td>{{x.quantity}}</td>
+                        <td>
+                            <button (click)="add_quantity(x.quantity, x)" type="button"
+                                class="btn btn-outline-success btn-small">
+                                quantity
+                            </button>
+                        </td>
+                        <td>
+                            <button (click)="remove(x,quantity,x.id)"
+                                class="add-button btn btn-outline-danger btn-small">
+                                remove
+                            </button>
+                        </td>
+                        <td>
+                            <button [class.selected]="x.name === selectedHero" (click)="onSelect(x.name)"
+                                class="add-button btn btn-outline-danger btn-small">
+                                select
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div *ngIf="newP.length ===0; else select">
+                <h5>You can add item</h5>
+            </div>
+            <ng-template #select>
+                <h5>You can select</h5>
+            </ng-template>
+            <div *ngIf="selectedHero; " #select>
+                <h2>You select {{selectedHero}} </h2>
+                <input type="text" #c class="form-control" placeholder="add comment.." aria-label="Username"
+                    aria-describedby="basic-addon1">
+                <button type="button" class="add-button btn-small"
+                    (click)="addComment(c.value, comment, comment1, selectedHero); c.value=''">
+                    <span class="comment1">{{comment1}}</span>
+                    <span class="comment">{{comment}}</span>
+                </button>
+                <div *ngFor="let e of newC; let i=index;">
+                    <span>{{i+1}}:Iteme: {{e.selectedHero}} , added comment :{{e.c}}</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
